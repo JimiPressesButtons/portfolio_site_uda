@@ -1,0 +1,50 @@
+.headering {
+	border-bottom: 3px solid #7d97ae;
+	margin-bottom: 3em;
+	text-align: right;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 { 
+	color: #7d97ae;
+}
+
+h4 {
+	margin-bottom: 4px;
+}
+
+.logo {
+	width: 100%;
+	max-width: 5.5em;
+}
+
+.hero-img {
+	width: 100%;
+	max-height: 30em;
+	padding: 0;
+	margin-bottom: 3em;
+}
+
+.feat-box {
+	text-align: center;
+}
+
+.feat-img {
+	width: 21em ;
+	max-width: 100%;
+}
+
+ @media only screen and (max-width : 320px){
+
+	body {
+		font-size: inherit;
+	}
+
+	.logo {
+		height: inherit;
+		width: 100%;
+	}
+}
